@@ -8,7 +8,7 @@ It is useful for recording the contents of external drives, backup disks, projec
 
 Download the latest release from:
 
-<https://github.com/ednortheyvyse/MacDriveSnap-Downloads/releases>
+<https://github.com/ednortheyvyse/MacDriveSnap/releases/latest>
 
 Open `MacDriveSnap.dmg`, then drag `MacDriveSnap.app` to Applications.
 
