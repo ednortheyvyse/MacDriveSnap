@@ -20,6 +20,7 @@ Open `MacDriveSnap.dmg`, then drag `MacDriveSnap.app` to Applications.
 - Visual comparison of older and newer reports
 - Optional hidden files, direct links, bundle traversal, file sizes, SHA-256 checksums, and JSON export
 - Local processing with no file-list uploads
+- Works with Mac Quick Look but without the animations
 
 ## Screenshots
 
