@@ -16,9 +16,12 @@ Open `MacDriveSnap.dmg`, then drag `MacDriveSnap.app` to Applications.
 
 - Standalone searchable HTML reports
 - Finder-style folder navigation
+- Resizable folder-tree column in generated reports
 - Sorting by name, size, and modified date
 - Visual comparison of older and newer reports
-- Optional hidden files, direct links, bundle traversal, file sizes, SHA-256 checksums, and JSON export
+- Drag and drop source and output folders from Finder
+- Optional CSV and JSON sidecar exports
+- Optional hidden files, direct links, bundle traversal, file sizes, and SHA-256 checksums
 - Local processing with no file-list uploads
 
 ## Screenshots
