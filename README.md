@@ -24,6 +24,7 @@ Open `MacDriveSnap.dmg`, then drag `MacDriveSnap.app` to Applications.
 - Optional hidden files, direct links, bundle traversal, file sizes, and SHA-256 checksums
 - Local processing with no file-list uploads
 - Works with Mac Quick Look but without the animations
+- HTML file works on all operating systems (Mac, Windows and Linux)
 
 ## Screenshots
 
