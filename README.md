@@ -1,63 +1,250 @@
 # MacDriveSnap
 
-MacDriveSnap is a native macOS app for creating portable, searchable HTML snapshots of folders and drives.
+MacDriveSnap is a native macOS application for cataloguing drives and folders, then creating portable snapshots that can be exported as searchable HTML reports or structured JSON, CSV and XML files.
 
-It is useful for recording the contents of external drives, backup disks, project folders, archives, and client handovers without copying the files themselves.
+Designed for IT professionals, media production, photographers, archivists, and anyone managing large collections of files, MacDriveSnap lets you build a searchable catalogue of your storage while producing portable reports that can be shared, archived or viewed anywhere—without copying the original files.
 
-Current version: **26.7.1**.
+Whether you're documenting an external drive, verifying a backup, handing over a project, or creating a long-term archive, MacDriveSnap provides a fast and reliable way to record exactly what was on a drive at a specific point in time.
 
-## Download
+**Current Version:** **26.7.1**
 
-Download the latest release from:
+---
 
-<https://github.com/ednortheyvyse/MacDriveSnap/releases/latest>
+# Download
 
-Open `MacDriveSnap.dmg`, then drag `MacDriveSnap.app` to Applications.
+Download the latest release:
 
-MacDriveSnap includes Sparkle update support, so installed copies can use **Check for Updates...** to move from older public versions to the latest release.
+https://github.com/ednortheyvyse/MacDriveSnap/releases/latest
 
-## System Requirements
+Open `MacDriveSnap.dmg` and drag **MacDriveSnap.app** into your Applications folder.
+
+MacDriveSnap supports automatic updates using **Sparkle**, allowing you to install new releases directly from **Check for Updates…** within the app.
+
+---
+
+# Why MacDriveSnap?
+
+Most disk cataloguing applications keep your catalogue locked inside their own database.
+
+MacDriveSnap goes further by combining a powerful catalogue manager with portable exports that anyone can open, search and use—without needing MacDriveSnap installed.
+
+Use the built-in catalogue to organise snapshots, then export them for clients, colleagues, project archives or long-term storage.
+
+---
+
+# Features
+
+## Catalogue Management
+
+Keep all your snapshots organised in one place.
+
+- Organise snapshots into groups
+- Tag snapshots for easy searching
+- Pin favourite groups
+- Custom colours and icons
+- Drag and drop snapshots between groups and tags
+- Search across your catalogue
+- Store snapshots locally without requiring the original drive
+
+---
+
+## Snapshot Creation
+
+Create a complete snapshot of any folder or drive.
+
+- Drag folders directly from Finder
+- Scan local, external and network storage
+- Optional hidden file support
+- Optional application bundle traversal
+- Record:
+  - File names
+  - Folder structure
+  - File sizes
+  - Modified dates
+- Optional SHA-256 checksum generation
+- Optional direct file links (macOS)
+
+---
+
+## Export Formats
+
+Export snapshots in the format that best suits your workflow.
+
+### HTML
+
+Portable, searchable reports that can be viewed in any modern web browser.
+
+Features include:
+
+- Instant text search
+- Finder-style folder navigation
+- Expand/collapse folders
+- Resizable folder tree
+- Sort by:
+  - Name
+  - Size
+  - Modified Date
+- No software installation required
+- Works on macOS, Windows and Linux
+
+### JSON
+
+Ideal for:
+
+- Automation
+- Custom integrations
+- Scripting
+- Data processing
+
+### CSV
+
+Perfect for:
+
+- Microsoft Excel
+- Apple Numbers
+- Google Sheets
+- Reporting and analysis
+
+### XML
+
+Useful for:
+
+- Data interchange
+- Long-term archival workflows
+- Integration with third-party software
+
+---
+
+## Snapshot Comparison
+
+Compare two snapshots to quickly identify differences.
+
+Ideal for:
+
+- Backup verification
+- Archive auditing
+- Drive migrations
+- Project deliveries
+- File change tracking
+
+Quickly identify:
+
+- Added files
+- Removed files
+- Modified files
+
+---
+
+## Privacy First
+
+Everything is processed locally on your Mac.
+
+MacDriveSnap:
+
+- Does not upload your file lists
+- Does not require an online account
+- Does not use cloud processing
+- Keeps your data entirely under your control
+
+---
+
+# Typical Uses
+
+MacDriveSnap is useful wherever you need a permanent record of a drive or folder.
+
+Common use cases include:
+
+- TV & film productions
+- Digital Imaging Technician (DIT) workflows
+- Client drive handovers
+- External drive cataloguing
+- Backup verification
+- LTO archive indexing
+- Digital asset management
+- Photography and video archives
+- IT asset documentation
+- Long-term project archiving
+- Software development repositories
+- Research and legal evidence archives
+
+---
+
+# Screenshots
+
+## Catalogue
+
+![MacDriveSnap Catalogue](docs/screenshots/macdrivesnap-app.png)
+
+---
+
+## Create a Snapshot
+
+![Create Snapshot](docs/screenshots/macdrivesnap-snap.png)
+
+---
+
+## Compare Snapshots
+
+![Compare Snapshots](docs/screenshots/macdrivesnap-compare.png)
+
+---
+
+## Portable HTML Report
+
+![HTML Report](docs/screenshots/macdrivesnap-report.png)
+
+---
+
+# System Requirements
 
 - macOS 14.6 or later
-- Intel or Apple silicon Mac
+- Apple Silicon or Intel Mac
 
-## Features
+---
 
-- Standalone searchable HTML reports
-- Finder-style folder navigation in generated reports
-- Resizable folder-tree column in generated reports
-- Sorting by name, size, and modified date
-- Visual comparison of older and newer reports
-- Catalog view for saved snap reports
-- Groups, tags, pinned groups, colors, and icons for organising reports
-- Drag existing reports onto groups or tags to categorise them
-- Drag a Finder folder into the app to start a new snap
-- Optional CSV and JSON sidecar exports
-- Optional hidden files, direct links, bundle traversal, file sizes, and SHA-256 checksums
-- Local processing with no file-list uploads
-- HTML reports work on macOS, Windows, and Linux
+# Privacy
 
-## Screenshots
+Generated snapshots may include:
 
-![MacDriveSnap app](docs/screenshots/macdrivesnap-app.png)
+- File and folder names
+- Folder paths
+- File sizes
+- Modified dates
+- Direct file links (optional)
+- SHA-256 checksums (optional)
 
-![MacDriveSnap app](docs/screenshots/macdrivesnap-snap.png)
+Review exported snapshots before sharing them outside your organisation.
 
-![MacDriveSnap app](docs/screenshots/macdrivesnap-compare.png)
+---
 
-![Example HTML report](docs/screenshots/macdrivesnap-report.png)
+# Similar Projects
 
-## Privacy
+MacDriveSnap occupies a similar space to these excellent directory snapshot tools:
 
-MacDriveSnap processes folders locally. Generated reports may contain sensitive filenames, paths, dates, sizes, direct file links, or checksums. Review reports before sharing them.
+- LinuxDir2HTML — https://github.com/homeisfar/LinuxDir2HTML
+- Snap2HTML — https://www.rlvision.com/snap2html/
+- DiskCatalogMaker — https://diskcatalogmaker.com/
 
-## Acknowledgements
+---
 
-MacDriveSnap is in a similar space to these useful directory snapshot/reporting tools:
+# Roadmap
 
-- LinuxDir2HTML: <https://github.com/homeisfar/LinuxDir2HTML>
-- Snap2HTML: <https://www.rlvision.com/snap2html/>
+Future development will continue to focus on improving catalogue management, reporting, search capabilities and workflow features.
 
-## Support
+Feature suggestions and feedback are always welcome through GitHub Issues.
 
-<https://buymeacoffee.com/ednortheyvyse>
+---
+
+# Support Development
+
+If MacDriveSnap saves you time, consider supporting its development:
+
+https://buymeacoffee.com/ednortheyvyse
+
+---
+
+# License
+
+Copyright © Ed Northey-Vyse.
+
+See the repository for licensing information.
