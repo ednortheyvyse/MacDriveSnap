@@ -41,6 +41,10 @@ MacDriveSnap includes Sparkle update support, so installed copies can use **Chec
 
 ![MacDriveSnap app](docs/screenshots/macdrivesnap-app.png)
 
+![MacDriveSnap app](docs/screenshots/macdrivesnap-snap.png)
+
+![MacDriveSnap app](docs/screenshots/macdrivesnap-compare.png)
+
 ![Example HTML report](docs/screenshots/macdrivesnap-report.png)
 
 ## Privacy
