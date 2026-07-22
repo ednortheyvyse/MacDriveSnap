@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MacDriveSnap</title>
+        <item>
+            <title>26.7.3</title>
+            <pubDate>Wed, 22 Jul 2026 18:08:49 +0100</pubDate>
+            <link>https://github.com/ednortheyvyse/MacDriveSnap</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>26.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# MacDriveSnap 26.7.3
+
+MacDriveSnap 26.7.3 focuses on more reliable catalogue-managed imports, better HTML report previews, and layout polish in the snapshot browser.
+
+## Improvements
+
+- Imported snap files are now copied into the catalogue's managed Reports folder, so catalogue entries no longer depend on the original import location.
+- HTML reports now include a static folder tree and file list fallback so Quick Look can preview snapshot contents even when JavaScript is unavailable.
+- Quick Look previews now show folder and file icons in the static sidebar and main file list.
+- Snapshot browser header metadata now stays on a single line and truncates cleanly in smaller windows.
+- Reduced the gap between the drive summary and metadata in the snapshot browser header.
+
+## Fixes
+
+- Fixed generated report JavaScript initialization for the resizable sidebar.
+]]></description>
+            <enclosure url="https://github.com/ednortheyvyse/MacDriveSnap/releases/latest/download/MacDriveSnap.dmg" length="5879042" type="application/octet-stream" sparkle:edSignature="NzOjjkYm6y46RvBejwHmvtIpI1gplQMAhgKKQIqLdXhrPI1vqIvkArjguSr9TPBu0NvSS5qxhfLx6tRpCt3xDQ=="/>
+        </item>
+    </channel>
+</rss>

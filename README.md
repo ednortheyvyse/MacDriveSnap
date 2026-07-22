@@ -6,7 +6,7 @@ Designed for IT professionals, media production, photographers, archivists, and 
 
 Whether you are documenting an external drive, verifying a backup, handing over a project, or creating a long-term archive, MacDriveSnap provides a fast and reliable way to record exactly what was on a drive at a specific point in time.
 
-**Current Version:** **26.7.2**
+**Current Version:** **26.7.3**
 
 ---
 
